@@ -1,5 +1,5 @@
 # CoreAnimationDemo
-![Build Status](https://travis-ci.org/fcgeek/FCCarouselView.svg)
+![Build Status](https://travis-ci.org/fcgeek/CoreAnimationDemo.svg)
 ![Language](https://img.shields.io/badge/language-Swift%202.2-orange.svg)
 ![Platform](https://img.shields.io/cocoapods/p/FCCarouselView.svg?style=flat)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/fcgeek/FCCarouselView/blob/master/LICENSE)  

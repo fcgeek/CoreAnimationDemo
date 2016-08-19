@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		EC5D67571D66BF9A001E9242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67561D66BF9A001E9242 /* AppDelegate.swift */; };
-		EC5D67591D66BF9A001E9242 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67581D66BF9A001E9242 /* MasterViewController.swift */; };
-		EC5D675B1D66BF9A001E9242 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D675A1D66BF9A001E9242 /* DetailViewController.swift */; };
 		EC5D675E1D66BF9A001E9242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5D675C1D66BF9A001E9242 /* Main.storyboard */; };
 		EC5D67601D66BF9A001E9242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5D675F1D66BF9A001E9242 /* Assets.xcassets */; };
 		EC5D67631D66BF9A001E9242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5D67611D66BF9A001E9242 /* LaunchScreen.storyboard */; };
 		EC5D676E1D66BF9A001E9242 /* CoreAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D676D1D66BF9A001E9242 /* CoreAnimationDemoTests.swift */; };
 		EC5D67791D66BF9B001E9242 /* CoreAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67781D66BF9B001E9242 /* CoreAnimationDemoUITests.swift */; };
+		EC5D67881D66EF63001E9242 /* LayerThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */; };
+		EC5D678A1D66F023001E9242 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67891D66F023001E9242 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,6 @@
 /* Begin PBXFileReference section */
 		EC5D67531D66BF9A001E9242 /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5D67561D66BF9A001E9242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EC5D67581D66BF9A001E9242 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		EC5D675A1D66BF9A001E9242 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		EC5D675D1D66BF9A001E9242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EC5D675F1D66BF9A001E9242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5D67621D66BF9A001E9242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		EC5D67741D66BF9B001E9242 /* CoreAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5D67781D66BF9B001E9242 /* CoreAnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAnimationDemoUITests.swift; sourceTree = "<group>"; };
 		EC5D677A1D66BF9B001E9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerThreeViewController.swift; sourceTree = "<group>"; };
+		EC5D67891D66F023001E9242 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +101,11 @@
 			children = (
 				EC5D67861D66DA41001E9242 /* CoreAnimation */,
 				EC5D67561D66BF9A001E9242 /* AppDelegate.swift */,
-				EC5D67581D66BF9A001E9242 /* MasterViewController.swift */,
-				EC5D675A1D66BF9A001E9242 /* DetailViewController.swift */,
 				EC5D675C1D66BF9A001E9242 /* Main.storyboard */,
 				EC5D675F1D66BF9A001E9242 /* Assets.xcassets */,
 				EC5D67611D66BF9A001E9242 /* LaunchScreen.storyboard */,
 				EC5D67641D66BF9A001E9242 /* Info.plist */,
+				EC5D67891D66F023001E9242 /* TableViewController.swift */,
 			);
 			path = CoreAnimationDemo;
 			sourceTree = "<group>";
@@ -132,6 +131,7 @@
 		EC5D67861D66DA41001E9242 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */,
 			);
 			path = CoreAnimation;
 			sourceTree = "<group>";
@@ -267,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC5D675B1D66BF9A001E9242 /* DetailViewController.swift in Sources */,
-				EC5D67591D66BF9A001E9242 /* MasterViewController.swift in Sources */,
+				EC5D67881D66EF63001E9242 /* LayerThreeViewController.swift in Sources */,
+				EC5D678A1D66F023001E9242 /* TableViewController.swift in Sources */,
 				EC5D67571D66BF9A001E9242 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
