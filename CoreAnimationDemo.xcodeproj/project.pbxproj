@@ -15,6 +15,13 @@
 		EC5D67791D66BF9B001E9242 /* CoreAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67781D66BF9B001E9242 /* CoreAnimationDemoUITests.swift */; };
 		EC5D67881D66EF63001E9242 /* LayerThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */; };
 		EC5D678A1D66F023001E9242 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67891D66F023001E9242 /* TableViewController.swift */; };
+		EC5D678D1D66F7E6001E9242 /* ContentsImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D678C1D66F7E6001E9242 /* ContentsImageViewController.swift */; };
+		EC5D678F1D670096001E9242 /* ContentsGravityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D678E1D670096001E9242 /* ContentsGravityViewController.swift */; };
+		EC5D67911D670126001E9242 /* ContentsScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67901D670126001E9242 /* ContentsScaleViewController.swift */; };
+		EC5D67931D6701D7001E9242 /* MaskToBoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67921D6701D7001E9242 /* MaskToBoundsViewController.swift */; };
+		EC5D67951D670293001E9242 /* ContentsRectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67941D670293001E9242 /* ContentsRectViewController.swift */; };
+		EC5D67971D6707B5001E9242 /* ContentsCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67961D6707B5001E9242 /* ContentsCenterViewController.swift */; };
+		EC5D67991D670E42001E9242 /* CustomeDrawingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D67981D670E42001E9242 /* CustomeDrawingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		EC5D677A1D66BF9B001E9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayerThreeViewController.swift; sourceTree = "<group>"; };
 		EC5D67891D66F023001E9242 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		EC5D678C1D66F7E6001E9242 /* ContentsImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsImageViewController.swift; sourceTree = "<group>"; };
+		EC5D678E1D670096001E9242 /* ContentsGravityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsGravityViewController.swift; sourceTree = "<group>"; };
+		EC5D67901D670126001E9242 /* ContentsScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsScaleViewController.swift; sourceTree = "<group>"; };
+		EC5D67921D6701D7001E9242 /* MaskToBoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaskToBoundsViewController.swift; sourceTree = "<group>"; };
+		EC5D67941D670293001E9242 /* ContentsRectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsRectViewController.swift; sourceTree = "<group>"; };
+		EC5D67961D6707B5001E9242 /* ContentsCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentsCenterViewController.swift; sourceTree = "<group>"; };
+		EC5D67981D670E42001E9242 /* CustomeDrawingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomeDrawingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +145,24 @@
 		EC5D67861D66DA41001E9242 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				EC5D678B1D66F6CB001E9242 /* BackingImage */,
 				EC5D67871D66EF63001E9242 /* LayerThreeViewController.swift */,
 			);
 			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		EC5D678B1D66F6CB001E9242 /* BackingImage */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D678C1D66F7E6001E9242 /* ContentsImageViewController.swift */,
+				EC5D678E1D670096001E9242 /* ContentsGravityViewController.swift */,
+				EC5D67901D670126001E9242 /* ContentsScaleViewController.swift */,
+				EC5D67921D6701D7001E9242 /* MaskToBoundsViewController.swift */,
+				EC5D67941D670293001E9242 /* ContentsRectViewController.swift */,
+				EC5D67961D6707B5001E9242 /* ContentsCenterViewController.swift */,
+				EC5D67981D670E42001E9242 /* CustomeDrawingViewController.swift */,
+			);
+			path = BackingImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5D67991D670E42001E9242 /* CustomeDrawingViewController.swift in Sources */,
+				EC5D67931D6701D7001E9242 /* MaskToBoundsViewController.swift in Sources */,
+				EC5D678D1D66F7E6001E9242 /* ContentsImageViewController.swift in Sources */,
+				EC5D67971D6707B5001E9242 /* ContentsCenterViewController.swift in Sources */,
+				EC5D67911D670126001E9242 /* ContentsScaleViewController.swift in Sources */,
 				EC5D67881D66EF63001E9242 /* LayerThreeViewController.swift in Sources */,
+				EC5D67951D670293001E9242 /* ContentsRectViewController.swift in Sources */,
 				EC5D678A1D66F023001E9242 /* TableViewController.swift in Sources */,
 				EC5D67571D66BF9A001E9242 /* AppDelegate.swift in Sources */,
+				EC5D678F1D670096001E9242 /* ContentsGravityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
