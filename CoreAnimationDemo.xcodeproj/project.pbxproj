@@ -99,6 +99,7 @@
 		EC5D67551D66BF9A001E9242 /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EC5D67861D66DA41001E9242 /* CoreAnimation */,
 				EC5D67561D66BF9A001E9242 /* AppDelegate.swift */,
 				EC5D67581D66BF9A001E9242 /* MasterViewController.swift */,
 				EC5D675A1D66BF9A001E9242 /* DetailViewController.swift */,
@@ -126,6 +127,13 @@
 				EC5D677A1D66BF9B001E9242 /* Info.plist */,
 			);
 			path = CoreAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		EC5D67861D66DA41001E9242 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
